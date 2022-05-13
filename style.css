@@ -1,0 +1,95 @@
+@font-face {
+  font-family: "Raleway";
+  src: url("police/Raleway-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("police/Raleway-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("police/Raleway-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 350;
+  color: #773399;
+}
+nav {
+  color: slategrey;
+}
+
+p,
+a {
+  font-size: 1.125rem;
+}
+
+.container {
+  max-width: 80ch;
+  margin: auto;
+}
+
+.header {
+  background-color: #773399;
+
+  color: white;
+  padding-block-end: 42px;
+  border-bottom: 4px solid #bf40bf;
+}
+.title {
+  color: white;
+  text-align: center;
+}
+
+.header .wrapper {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.title {
+  margin: 0;
+  padding-block: 24px;
+  font-weight: bold;
+}
+
+.dr {
+  margin: 0;
+  padding-block: 12px;
+  font-size: 1.3em;
+  font-weight: 500;
+}
+
+.lien-navigation {
+  text-decoration: none;
+  display: block;
+  text-transform: capitalize;
+  padding-block: 8px;
+}
+
+.cote {
+  display: inline;
+}
+.coupe {
+  display: block;
+}
+.info {
+  color: black;
+}
